@@ -9,7 +9,6 @@ use Nette\Application\UI;
 abstract class Presenter extends UI\Presenter {
     use PresenterUtils;
 
-
     protected function startup()
     {
         parent::startup();
@@ -18,8 +17,7 @@ abstract class Presenter extends UI\Presenter {
         $this->setRedrawDefault($this->getSignal() === NULL);
     }
 
-
-    protected function afterRender()
+    protected function afterRender(): void
     {
         parent::afterRender();
 

@@ -16,7 +16,7 @@
     "require-dev": {
         "nette/application": "^3.1.5",
         "nette/di": "^3.0",
-        "latte/latte": "^2.10"
+        "latte/latte": "^3.0"
     },
     "minimum-stability": "RC",
     "prefer-stable": true
